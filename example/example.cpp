@@ -30,6 +30,6 @@ public:
 
 int main()
 {
-	Camera* cam = new Camera;
+	Camera* cam = new Camera();
 	cam->Update();
 }
